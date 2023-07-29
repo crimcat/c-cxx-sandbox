@@ -1,0 +1,7 @@
+
+ - prot.cpp (CPP shell to operate between real and protected modes)
+ - 386p.hpp (header for prot.cpp)
+ - protex.asm (assembler procedures that can't be C inline)
+ - protex.inc (header for protex.asm)
+ - pmio.cpp (CPP protected mode i/o library)
+ - pmio.hpp (header for pmio.cpp)
