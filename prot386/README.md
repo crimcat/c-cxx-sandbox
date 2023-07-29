@@ -9,3 +9,10 @@ The thing was compilable with Borland C++ 3.0 if I'm not mistaken.
 PS. Some Comments are in Russian... Sorry. But they are not vivid for the matter.
 
 PSS. Frankly, right now I do not understand how the thing works. Really.
+
+## Comments
+
+CPP project file must contain:
+ - prot.cpp (CPP shell to operate between real and proteted modes);
+ - protex.asm (assembler procedures that can't be C inline);
+ - pmio.cpp (protected mode i/o library).
