@@ -1,6 +1,6 @@
 # c-cxx-sandbox
 
-Collection of various examples, tricks and random solved tasks. Uniting poing is that all these pieces are made by me.
+Collection of various examples, tricks and random solved tasks in C/C++. Uniting poing is that all these pieces are made by me.
 
 ## Contents
 
