@@ -63,13 +63,13 @@ int main(int argc, char *argv[]) {
 		try {
 			csv::table<int> table = csv::table<int>::extract(*csv_is);
 			pretty_print(table);
-		} catch(const csv::irregular_rows &e) {
+		} catch(const csv::irregular_rows &) {
 			std::cerr << "CSV should have same rows length\n";
-		} catch(const csv::bad_or_failed_input_stream &e) {
+		} catch(const csv::bad_or_failed_input_stream &) {
 			std::cerr << "Error reading from " << argv[1] << '\n';
-		} catch(const csv::parse_exception &e) {
+		} catch(const csv::parse_exception &) {
 			std::cerr << "CSV structure parsing failed\n";
-		} catch(const csv::implementation_bug &e) {
+		} catch(const csv::implementation_bug &) {
 			std::cerr << "Algorithm implementation bug\n";
 		}
 

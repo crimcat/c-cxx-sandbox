@@ -277,7 +277,7 @@ private:
         case util::DIVIDE:
             try {
                 result.push_back(divide(arg2, arg1));
-            } catch(const division_by_zero &e) {
+            } catch(const division_by_zero &) {
                 throw division_by_zero(_cell->to_string());
             }
             break;
